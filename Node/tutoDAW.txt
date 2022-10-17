@@ -1,0 +1,51 @@
+/*Como crear una API REST usando Node.js*/
+Como requerimientos se utilizará el framework Express, Morgan,
+extension la cual permite visualizar peticiones HTTP, y Nodemon
+el cual se utiliza para levantar un servidor sin necesidad
+de ejecutarlo manualmente para identificar los cambios.
+
+Primero se crea una carpeta con un nombre a preferencia, luego se ejecuta
+el comando 
+
+npm init --yes
+
+Esto es para que nos genere un archivo el cual contendra las configuraciones
+paquetes y demas dependencias [0.0]
+
+A continuacion se instalan las extensiones mencionadas anteriormente,
+con los comandos
+
+npm i express morgan
+npm i nodemon -D
+
+Ya terminado el proceso, verificamos que exist una carpeta llamada
+node modules [0.1]
+
+Ahora se crea un archivo en la raiz de la carpeta, el cual contiene
+el siguiente codigo [0.2]
+
+Posterior a esto, se hacen configuraciones de puerto asimismo, la 
+cantidad de json spaces, para que de este modo tenga un mejor formato. [0.3]
+
+Se procede a digitar el siguiente codigo de modo que nos permita
+utilizar las extensiones y asi visualizar los resultados
+
+Ahorase codifica una prueba de API, para ello, se utilizara
+el mensaje "Hola Mundo" [0.4]
+
+Por ultimo se codifica el listening, el cual se encarga de 
+constantemente escuchar el puerto indicado [0.5]
+
+Para probar su correcto funcionamiento se ejecuta el siguiente comando
+
+node src/index.js [0.6]
+
+Una vez aparezca el mensaje "Listening on port 3000", se procede a ingresar
+en un navegador la url localhost:3000 dando como resultado el
+mensaje que se codifico [0.7]
+
+Para detener la ejecucion se presionan las teclas CTRL + C en el terminal.
+
+
+*/Bibliografia/*
+https://bravedeveloper.com/2021/03/22/crear-un-api-rest-con-nodejs-y-express-nunca-fue-tan-provechoso-y-sencillo/
